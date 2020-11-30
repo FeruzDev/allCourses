@@ -1,0 +1,74 @@
+/***************************** COLORS STYLE ****************************/
+body {
+  background-size: 20%; }
+  body header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #FF900E;
+    border-top: 1px solid #FF900E;
+    box-shadow: 0px 0px 7px rgba(255, 114, 0, 0.25);
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    width: 100%; }
+    body header .container-fluid .row .col-md-4:nth-child(1) {
+      display: flex;
+      justify-content: space-around; }
+      body header .container-fluid .row .col-md-4:nth-child(1) .prLogo {
+        width: 100px;
+        height: 100px; }
+      body header .container-fluid .row .col-md-4:nth-child(1) .circle_user {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #FF900E;
+        border-radius: 50%; }
+      body header .container-fluid .row .col-md-4:nth-child(1) img {
+        width: 65%;
+        height: 50px; }
+    body header .container-fluid .row .col-md-5 {
+      display: flex;
+      justify-content: space-around; }
+      body header .container-fluid .row .col-md-5 .input-group .input-group-btn .search-btn {
+        background-color: #FF900E;
+        color: white;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0; }
+      body header .container-fluid .row .col-md-5 .btn-lang {
+        height: 38px;
+        background-color: white;
+        border: 2px solid #FF900E;
+        color: #FF900E; }
+  body main .container-fluid .col-md-9 .videos {
+    margin-top: 140px;
+    margin-left: 120px; }
+  body main .container-fluid .col-md-3 .list-group-right {
+    margin-top: 100px;
+    padding: 5px;
+    border: 1px solid #FF900E;
+    box-shadow: 0px 0px 7px rgba(255, 114, 0, 0.25);
+    border-radius: 3px;
+    background-color: white; }
+    body main .container-fluid .col-md-3 .list-group-right .list-group-item {
+      border: none;
+      border-bottom: 2px solid #FF900E;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      body main .container-fluid .col-md-3 .list-group-right .list-group-item img {
+        width: 50px; }
+      body main .container-fluid .col-md-3 .list-group-right .list-group-item .prName {
+        margin-left: 10px;
+        font-family: "Berlin Sans FB";
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #0D0753; }
+      body main .container-fluid .col-md-3 .list-group-right .list-group-item .badgeCount {
+        border: 2px solid #FF900E;
+        border-radius: 10px;
+        padding: 0px 5px;
+        height: 22px;
+        color: #0D0753;
+        font-size: 12px; }
+
+/*# sourceMappingURL=main.css.map */

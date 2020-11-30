@@ -1,0 +1,127 @@
+
+
+
+
+/***************************** COLORS STYLE ****************************/
+
+$color-gold: #FF900E;
+$color-blv: #0D0753;
+$color-icons: #949494;
+$color-silver: #858585;
+$color-button: #5A077D;
+$color-green: #45D881;
+
+
+
+
+
+
+body{
+  //background-image: url("../img/bg1.png");
+  background-size: 20%;
+  header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid $color-gold;
+    border-top: 1px solid $color-gold;
+    box-shadow: 0px 0px 7px rgba(255, 114, 0, 0.25);
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+    .container-fluid{
+      .row{
+        .col-md-4:nth-child(1){
+           display: flex;
+          justify-content: space-around;
+         .prLogo{
+           width: 100px;
+           height: 100px;
+         }
+          .circle_user{
+            width: 50px;
+            height: 50px;
+            border: 2px solid #FF900E;
+            border-radius: 50%;
+          }
+          img{
+            width: 65%;
+            height: 50px;
+          }
+        }
+        .col-md-5{
+          display: flex;
+          justify-content: space-around;
+          .input-group{
+            .input-group-btn{
+              .search-btn{
+                background-color: #FF900E;
+                color: white;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+              }
+            }
+          }
+         .btn-lang{
+           height: 38px;
+           background-color: white;
+           border: 2px solid $color-gold;
+           color: $color-gold;
+         }
+        }
+      }
+    }
+  }
+  main{
+    .container-fluid{
+      .col-md-9{
+      .videos{
+        margin-top: 140px;
+        margin-left: 120px;
+
+      }
+      }
+      .col-md-3{
+        .list-group-right{
+          margin-top: 100px;;
+          padding: 5px;
+          border: 1px solid $color-gold;
+          box-shadow: 0px 0px 7px rgba(255, 114, 0, 0.25);
+          border-radius: 3px;
+          background-color: white;
+         .list-group-item{
+           border: none;
+           border-bottom: 2px solid $color-gold;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           img{
+             width: 50px;
+
+           }
+
+           .prName{
+             margin-left: 10px;
+             font-family: "Berlin Sans FB";
+             font-size: 20px;
+             text-transform: uppercase;
+             color: $color-blv;
+           }
+           .badgeCount{
+             border: 2px solid $color-gold;
+             border-radius: 10px;
+             padding: 0px 5px;
+             height: 22px;
+             color: $color-blv;
+             font-size: 12px;
+
+           }
+         }
+
+        }
+      }
+    }
+  }
+
+}
